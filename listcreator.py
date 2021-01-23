@@ -121,12 +121,16 @@ def cases(inlist):		# Sets the first character of each word to Uppercase
 output = scramble(keywords)
 for i in unify(keywords):
 	output.append(i)
+print("[+] Unifying keywords . . .")
+
 for i in cases(keywords):
 	output.append(i)
+print("[+] Tuning case-sensitivity . . .")
+
 preparedate(birthdate)
 for i in datescramble(output):
 	output.append(i)
-
+print("[+] Finishing wordlist . . .")
 
 # Generate & Write to File:
 file = open(outname, "a")
