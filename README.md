@@ -1,7 +1,7 @@
 # PasswordList Generator
 ## A Customised Passwordlist generator for brute force attacks. 
 
-Takes in name, lastname, any important date (preferably birthdate) as input, followed by any number of keywords.
+Takes in name, lastname, any important date (i.e birthdate) as input, followed by any number of keywords.
 
 Runs some magic and concatinates them with eachother, as well as with the most common passwords of the .txt file. 
 
